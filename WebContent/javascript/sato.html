@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<title>Insert title here</title>
+<script>
+	jQuery(function($) {
+		$('.sel').change(function() {
+
+			var nedan = $('.nedan').text();
+			var kosuu = $('.sel').val();
+
+			var goukei = nedan * kosuu;
+
+			$('.goukei').text(goukei);
+		});
+		
+		$('.tex').keyup(function() {
+			if(!($('.tex').val().match(/^[a-zA-Z]+$/))){
+				var text = $('.tex').val() ;
+				text = text.slice(0, -1); //test
+				$('.tex').val(text);
+				//return false;
+			};
+		});
+	});
+
+</script>
+
+</head>
+<body>
+<input type ="text" class="tex" value ="">
+
+	<form action="cgi-bin/formmail.cgi" method="post">
+			星座：<br>
+			 <select class="sel" name='sel'>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select>
+	</form>
+	<div class="nedan">1000</div>
+
+	<div class="goukei">1000</div>
+　
+　　<a href="test.html">画面遷移</a>
+こんにちは
+
+</body>
+
+
+</html>

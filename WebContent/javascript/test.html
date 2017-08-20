@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<link rel="stylesheet" href="http://jaysalvat.github.io/vegas/releases/latest/vegas.min.css">
+
+<style>     
+
+
+
+</style>
+
+<script>
+
+jQuery(function($) {
+	$('.one').css('color', 'blue');
+	
+	$('body').vegas({
+		  overlay: true,
+		  transition: 'flash', 
+		  transitionDuration: 4000,
+		  delay: 10000,
+		  animation: 'random',
+		  animationDuration: 20000,
+		  slides: [
+		    { src: '3.jpg' },
+		    { src: '2.jpg' }
+		  ]
+		});
+	
+});
+
+
+</script>
+
+
+</head>
+<body>
+
+<div class="one">
+こんにちは
+
+</div>
+
+<div class="two">
+
+二個目
+
+</div>
+
+
+
+
+
+<script src="http://jaysalvat.github.io/vegas/releases/latest/vegas.js"></script>
+
+</body>
+</html>
