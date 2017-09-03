@@ -18,7 +18,7 @@
 			$('.goukei').text(goukei);
 		});
 		
-		$('.tex').keyup(function() {
+		$('.tex').keydown(function() {
 			if(!($('.tex').val().match(/^[a-zA-Z]+$/))){
 				var text = $('.tex').val() ;
 				text = text.slice(0, -1); //test

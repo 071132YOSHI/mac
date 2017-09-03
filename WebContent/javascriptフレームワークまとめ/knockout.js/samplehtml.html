@@ -1,0 +1,15 @@
+<html>
+  <body>
+    <span data-bind="text: sampleText"></span>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/knockout/3.1.0/knockout-min.js"></script>
+    <script>
+    window.onload = function () {
+        var viewModel = {
+                sampleText: 'Hello World!'
+            };
+ 
+        ko.applyBindings(viewModel);
+    };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+ 
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    
+    <title>${title}</title>
+    <meta name="description" content="${description}" />
+    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.10/vue.js'></script>
+    
+    <style>${style}</style>
+    <script>${script}</script>
+    <style>
+    *, *:before, *:after {
+  box-sizing: border-box; 
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #444;
+  background-color: hsl(0, 0%, 96%);
+}
+h1 {
+  font-size: 1.8rem;
+}
+    
+    
+    
+    </style>
+    
+    
+    <script>
+    
+    /*
+     * runstant
+     */
+
+    window.onload = function() {
+      var demo = new Vue({
+        el: '#demo',
+        data: {
+          message: 'Hello Vue.js!'
+        }
+      });
+    };
+
+    
+    
+    
+    
+    </script>
+    
+    
+    
+    
+  </head>
+  <body>
+    <div id="demo">
+      <p>{{message}}</p>
+      <input v-model="message">
+    </div>
+  </body>
+</html>

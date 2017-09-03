@@ -1,0 +1,33 @@
+<基礎情報>
+・cdnやるだけで導入できます
+
+http://paiza.hatenablog.com/entry/2015/03/11/Backbone_JS%E3%81%8B%E3%82%89Angular2%E3%81%BE%E3%81%A7%E3%80%81%E5%85%A89%E5%A4%A7JavaScript%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%92%E6%9B%B8%E3%81%8D%E6%AF%94%E3%81%B9
+
+↑おすすめ全体比較
+
+cdn →  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.10/vue.js'></script>
+
+
+<できること>
+１、リアルタイムで入力を表示できる。(リアルタイムで DOMの書き換え？)
+2,
+
+
+
+<ファイル情報>
+sample→とりあえず動くやつ
+
+
+
+
+
+<その他>
+
+
+
+
+
+
+
+
+
